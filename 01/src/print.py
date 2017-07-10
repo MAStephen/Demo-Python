@@ -1,4 +1,5 @@
 # -*-coding:Latin-1 -*
+
 # importation du module OS
 import os
 
