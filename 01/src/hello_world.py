@@ -1,12 +1,13 @@
 # -*-coding:Latin-1 -*
-# importation du module OS
-import os
 
-# On import le module
-from modulePrint import*
+# Creation du print hello world
+# On créé la chaine de caractère
+message = 'Hello World !!!'
 
-# on lance la function du module
-elmsg()
+# on créé un main
+def print_hello_world():
+        # On insert la chaine de caractère dans un print
+        print(message)
 
-# On demande au système de faire pause a la fin de l'exécution
-os.system("pause")
+if __name__ == '__main__':
+    print_hello_world()
